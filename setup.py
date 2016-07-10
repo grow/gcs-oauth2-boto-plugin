@@ -37,7 +37,6 @@ requires = [
     'oauth2client!=2.0.1',
     'oauth2client!=2.0.2',
     'oauth2client!=2.1.0',
-    'pyOpenSSL>=0.13',
     # Not using 1.02 because of:
     #   https://code.google.com/p/socksipy-branch/issues/detail?id=3
     'SocksiPy-branch==1.01',
@@ -46,11 +45,10 @@ requires = [
 ]
 
 setup(
-    name='gcs-oauth2-boto-plugin',
+    name='gcs-oauth2-boto-plugin-grow',
     version='1.14',
     url='https://developers.google.com/storage/docs/gspythonlibrary',
-    download_url=('https://github.com/GoogleCloudPlatform'
-                  '/gcs-oauth2-boto-plugin'),
+    download_url='https://github.com/grow/gcs-oauth2-boto-plugin',
     license='Apache 2.0',
     author='Google Inc.',
     author_email='gs-team@google.com',
